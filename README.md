@@ -58,7 +58,7 @@ This project is composed of a few important parts.
 
 2. The scoring engine is written in python3 and uses Flask for the web interface. In order to install dependencies and set up the services, run `./install.sh`.
 
-3. Create table `scoring` in database (`CREATE TABLE scoring;`). Set up the database with schema with `mysql -u root -p < ./scoring/schema.sql`.
+3. Create database `scoring` in database (`CREATE DATABASE scoring;`). Set up the database with schema with `mysql -u root -p < ./scoring/schema.sql`.
      
 4. Input your MySQL credentials (username and password separated by newline) in `./scoring/db.creds`.
 
